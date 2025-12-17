@@ -23,6 +23,9 @@ export const StyledBadge = styled.span<StyledBadgeProps>(
     textTransform: styles?.textTransform || "uppercase",
     paddingInline: styles?.paddingInline || "5px",
     paddingBlock: styles?.paddingBlock || "2px",
+    whiteSpace: styles?.whiteSpace || "nowrap",
+    overflow: styles?.overflow || "hidden",
+    textOverflow: styles?.textOverflow || "ellipsis",
     display: "block",
   }),
 );

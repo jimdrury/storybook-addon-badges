@@ -21,6 +21,9 @@ export type BadgeConfig = {
         paddingBlock?: Property.PaddingBlock,
         paddingInline?: Property.PaddingInline,
         textTransform?: Property.TextTransform,
+        whiteSpace?: Property.WhiteSpace,
+        overflow?: Property.Overflow,
+        textOverflow?: Property.TextOverflow,
     };
     location?: Array<'toolbar' | 'toolbar-extra' | 'sidebar'>;
     title?: string;
